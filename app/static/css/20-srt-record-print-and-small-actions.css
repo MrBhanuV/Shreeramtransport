@@ -1,0 +1,69 @@
+
+/* Smaller icon-only Edit/Delete actions */
+#pg-dash .act-btn.icon-only,
+#pg-dash .gps-btn.icon-only{
+  width:24px !important;
+  height:24px !important;
+  min-width:24px !important;
+  min-height:24px !important;
+  padding:0 !important;
+  font-size:.68rem !important;
+  line-height:1 !important;
+  border-radius:3px !important;
+}
+#pg-dash .row-acts,
+#pg-dash .fr-acts{gap:.22rem !important;}
+
+/* Dedicated record-only print canvas */
+#srtRecordPrintRoot{display:none;}
+@media print{
+  body.srt-record-print{background:#fff !important;color:#111 !important;display:block !important;min-height:auto !important;}
+  body.srt-record-print > *:not(#srtRecordPrintRoot){display:none !important;}
+  body.srt-record-print #srtRecordPrintRoot{
+    display:block !important;
+    position:static !important;
+    width:100% !important;
+    max-width:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    background:#fff !important;
+    color:#111 !important;
+    font-family:'Lora',serif !important;
+  }
+  #srtRecordPrintRoot .srt-print-title{border-bottom:2px solid #222;padding:0 0 10px;margin:0 0 14px;}
+  #srtRecordPrintRoot .srt-print-title h1{font-size:18px;margin:0 0 4px;color:#111 !important;}
+  #srtRecordPrintRoot .srt-print-title p{font-size:10px;margin:0;color:#555 !important;}
+  #srtRecordPrintRoot table{width:100% !important;min-width:0 !important;border-collapse:collapse !important;font-size:9px !important;color:#111 !important;background:#fff !important;}
+  #srtRecordPrintRoot thead th,
+  #srtRecordPrintRoot tbody td,
+  #srtRecordPrintRoot th,
+  #srtRecordPrintRoot td{color:#111 !important;background:#fff !important;border:1px solid #bbb !important;padding:4px 5px !important;white-space:normal !important;overflow:visible !important;text-overflow:clip !important;}
+  #srtRecordPrintRoot thead th{font-weight:700 !important;background:#f1f1f1 !important;position:static !important;}
+  #srtRecordPrintRoot .tbl-wrap,
+  #srtRecordPrintRoot .gps-tbl-wrap,
+  #srtRecordPrintRoot .att-table-wrap,
+  #srtRecordPrintRoot .staff-table-wrap,
+  #srtRecordPrintRoot .salary-table-wrap,
+  #srtRecordPrintRoot .month-table-wrap{overflow:visible !important;max-height:none !important;border:0 !important;margin:0 !important;}
+  #srtRecordPrintRoot button,
+  #srtRecordPrintRoot input,
+  #srtRecordPrintRoot select,
+  #srtRecordPrintRoot textarea,
+  #srtRecordPrintRoot .row-acts,
+  #srtRecordPrintRoot .fr-acts,
+  #srtRecordPrintRoot .gps-act-col,
+  #srtRecordPrintRoot .scroll-hint,
+  #srtRecordPrintRoot .tbl-pager,
+  #srtRecordPrintRoot .gps-pager,
+  #srtRecordPrintRoot .save-bar,
+  #srtRecordPrintRoot .att-toolbar,
+  #srtRecordPrintRoot .staff-toolbar,
+  #srtRecordPrintRoot .cal-toolbar,
+  #srtRecordPrintRoot .salary-toolbar,
+  #srtRecordPrintRoot .salary-rule-card,
+  #srtRecordPrintRoot .salary-calc-card,
+  #srtRecordPrintRoot .month-data-select-wrap{display:none !important;}
+  #srtRecordPrintRoot .cal-grid,
+  #srtRecordPrintRoot .cal-day-headers{color:#111 !important;background:#fff !important;}
+  @page{margin:10mm;size:auto;}
+}

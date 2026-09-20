@@ -1,0 +1,3 @@
+
+@keyframes srtClickPulse{0%{filter:brightness(1)}45%{filter:brightness(1.18)}100%{filter:brightness(1)}}
+#pg-home .srt-click-pulse{animation:srtClickPulse .26s ease!important;}

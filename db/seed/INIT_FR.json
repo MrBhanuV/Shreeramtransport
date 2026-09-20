@@ -1,0 +1,386 @@
+[
+  {
+    "destination": "Patan",
+    "rate": "1700"
+  },
+  {
+    "destination": "Kundam",
+    "rate": "1600"
+  },
+  {
+    "destination": "Bargi",
+    "rate": "1700"
+  },
+  {
+    "destination": "Majholi",
+    "rate": "1800"
+  },
+  {
+    "destination": "Panagar",
+    "rate": "1700"
+  },
+  {
+    "destination": "Mauganj",
+    "rate": "2000"
+  },
+  {
+    "destination": "Gurh",
+    "rate": "1950"
+  },
+  {
+    "destination": "Hanumana",
+    "rate": "1950"
+  },
+  {
+    "destination": "Naigarhi",
+    "rate": "2100"
+  },
+  {
+    "destination": "Sirmour",
+    "rate": "2100"
+  },
+  {
+    "destination": "Teonthar",
+    "rate": "2100"
+  },
+  {
+    "destination": "Mangawan",
+    "rate": "2050"
+  },
+  {
+    "destination": "Rampur Baghelan",
+    "rate": "1900"
+  },
+  {
+    "destination": "Nagod",
+    "rate": "1950"
+  },
+  {
+    "destination": "Uchhehara",
+    "rate": "1850"
+  },
+  {
+    "destination": "Amarpatan",
+    "rate": "1850"
+  },
+  {
+    "destination": "Ramnagar",
+    "rate": "1850"
+  },
+  {
+    "destination": "Churhat",
+    "rate": "1800"
+  },
+  {
+    "destination": "Rampur Naikin",
+    "rate": "2000"
+  },
+  {
+    "destination": "Chitrangi",
+    "rate": "1700"
+  },
+  {
+    "destination": "Devsar",
+    "rate": "1700"
+  },
+  {
+    "destination": "Burhar",
+    "rate": "1150"
+  },
+  {
+    "destination": "Jaisinghnagar",
+    "rate": "1400"
+  },
+  {
+    "destination": "Gohparu",
+    "rate": "1300"
+  },
+  {
+    "destination": "Pushparajgarh",
+    "rate": "1100"
+  },
+  {
+    "destination": "Kotma",
+    "rate": "1050"
+  },
+  {
+    "destination": "Pali",
+    "rate": "1400"
+  },
+  {
+    "destination": "Chandia",
+    "rate": "1500"
+  },
+  {
+    "destination": "Manpur",
+    "rate": "1600"
+  },
+  {
+    "destination": "Nainpur",
+    "rate": "1750"
+  },
+  {
+    "destination": "Bichhia",
+    "rate": "1550"
+  },
+  {
+    "destination": "Mawai",
+    "rate": "1600"
+  },
+  {
+    "destination": "Narayanganj",
+    "rate": "1600"
+  },
+  {
+    "destination": "Ghughari",
+    "rate": "1650"
+  },
+  {
+    "destination": "Niwas",
+    "rate": "1650"
+  },
+  {
+    "destination": "Vijayraghavgarh",
+    "rate": "1750"
+  },
+  {
+    "destination": "Bahoriband",
+    "rate": "1750"
+  },
+  {
+    "destination": "Rithi",
+    "rate": "1725"
+  },
+  {
+    "destination": "Badwara",
+    "rate": "1700"
+  },
+  {
+    "destination": "Dhimarkheda",
+    "rate": "1750"
+  },
+  {
+    "destination": "Ajaigarh",
+    "rate": "2100"
+  },
+  {
+    "destination": "Pawai",
+    "rate": "1900"
+  },
+  {
+    "destination": "Shahnagar",
+    "rate": "1750"
+  },
+  {
+    "destination": "Gunour",
+    "rate": "2000"
+  },
+  {
+    "destination": "Amanganj",
+    "rate": "1900"
+  },
+  {
+    "destination": "Chhapara",
+    "rate": "1950"
+  },
+  {
+    "destination": "Lakhnadon",
+    "rate": "1850"
+  },
+  {
+    "destination": "Barghat",
+    "rate": "1800"
+  },
+  {
+    "destination": "Ghansore",
+    "rate": "1800"
+  },
+  {
+    "destination": "Keolari",
+    "rate": "1850"
+  },
+  {
+    "destination": "Kurai",
+    "rate": "2100"
+  },
+  {
+    "destination": "Parasia",
+    "rate": "2250"
+  },
+  {
+    "destination": "Sausar",
+    "rate": "2150"
+  },
+  {
+    "destination": "Tamia",
+    "rate": "2400"
+  },
+  {
+    "destination": "Harrai",
+    "rate": "2300"
+  },
+  {
+    "destination": "Amarwara",
+    "rate": "2250"
+  },
+  {
+    "destination": "Mohkhed",
+    "rate": "2250"
+  },
+  {
+    "destination": "Kirnapur",
+    "rate": "1600"
+  },
+  {
+    "destination": "Lalbarra",
+    "rate": "1700"
+  },
+  {
+    "destination": "Baihar",
+    "rate": "1650"
+  },
+  {
+    "destination": "Lanji",
+    "rate": "1600"
+  },
+  {
+    "destination": "Paraswada",
+    "rate": "1650"
+  },
+  {
+    "destination": "Katangi",
+    "rate": "1750"
+  },
+  {
+    "destination": "Bajag",
+    "rate": "1550"
+  },
+  {
+    "destination": "Samnapur",
+    "rate": "1500"
+  },
+  {
+    "destination": "Karanjia",
+    "rate": "1350"
+  },
+  {
+    "destination": "Mehandwani",
+    "rate": "1700"
+  },
+  {
+    "destination": "Anuppur",
+    "rate": "1100"
+  },
+  {
+    "destination": "Balaghat",
+    "rate": "1625"
+  },
+  {
+    "destination": "Chinndwara",
+    "rate": "2200"
+  },
+  {
+    "destination": "Jabalpur",
+    "rate": "1650"
+  },
+  {
+    "destination": "katni",
+    "rate": "1750"
+  },
+  {
+    "destination": "Rewa",
+    "rate": "1850"
+  },
+  {
+    "destination": "Satna",
+    "rate": "1900"
+  },
+  {
+    "destination": "Maihar",
+    "rate": "1800"
+  },
+  {
+    "destination": "sidhi",
+    "rate": "1700"
+  },
+  {
+    "destination": "Kusmi",
+    "rate": "1700"
+  },
+  {
+    "destination": "Beohari",
+    "rate": "1700"
+  },
+  {
+    "destination": "Singrauli",
+    "rate": "1650"
+  },
+  {
+    "destination": "Waidhan",
+    "rate": "1650"
+  },
+  {
+    "destination": "Jaithari",
+    "rate": "1100"
+  },
+  {
+    "destination": "Amarkantak",
+    "rate": "1400"
+  },
+  {
+    "destination": "Umariya",
+    "rate": "1450"
+  },
+  {
+    "destination": "Mandla",
+    "rate": "1600"
+  },
+  {
+    "destination": "Panna",
+    "rate": "2000"
+  },
+  {
+    "destination": "Seoni",
+    "rate": "1950"
+  },
+  {
+    "destination": "Pandhurna",
+    "rate": "2150"
+  },
+  {
+    "destination": "Dindori",
+    "rate": "1600"
+  },
+  {
+    "destination": "Maneri",
+    "rate": "1600"
+  },
+  {
+    "destination": "Sonbhadra",
+    "rate": "1700"
+  },
+  {
+    "destination": "gaya",
+    "rate": "1960"
+  },
+  {
+    "destination": "Shahdol",
+    "rate": "1200"
+  },
+  {
+    "destination": "Dumariya",
+    "rate": "1960"
+  },
+  {
+    "destination": "Singruali",
+    "rate": "1650"
+  },
+  {
+    "destination": "Marwahi",
+    "rate": "1175"
+  },
+  {
+    "destination": "Shakti Nagar",
+    "rate": "1755"
+  }
+]

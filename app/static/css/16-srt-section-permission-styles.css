@@ -1,0 +1,14 @@
+
+#cp-inv.srt-sec-no-view .tb-toolbar,#cp-inv.srt-sec-no-view .tbl-wrap,#cp-inv.srt-sec-no-view .scroll-hint,
+#cp-pay.srt-sec-no-view .tb-toolbar,#cp-pay.srt-sec-no-view .tbl-wrap,#cp-pay.srt-sec-no-view .scroll-hint,
+#cp-cp.srt-sec-no-view .tb-toolbar,#cp-cp.srt-sec-no-view .tbl-wrap,#cp-cp.srt-sec-no-view .scroll-hint,
+#cp-rp.srt-sec-no-view .tb-toolbar,#cp-rp.srt-sec-no-view .tbl-wrap,#cp-rp.srt-sec-no-view .scroll-hint,
+#cp-exp.srt-sec-no-view .exp-summary,#cp-exp.srt-sec-no-view .month-data-section,#cp-exp.srt-sec-no-view .tb-toolbar,#cp-exp.srt-sec-no-view .tbl-wrap,#cp-exp.srt-sec-no-view .scroll-hint,
+#cp-fr.srt-sec-no-view .tb-toolbar,#cp-fr.srt-sec-no-view .fr-grid,
+#cp-gps.srt-sec-no-view .gps-stat-cards,#cp-gps.srt-sec-no-view .month-data-section,#cp-gps.srt-sec-no-view .gps-filter-bar,#cp-gps.srt-sec-no-view .gps-scroll-body,#cp-gps.srt-sec-no-view .gps-tbl-section{display:none!important;}
+#cp-inv.srt-sec-no-manage .btn-add,#cp-pay.srt-sec-no-manage .btn-add,#cp-cp.srt-sec-no-manage .btn-add,#cp-rp.srt-sec-no-manage .btn-add,#cp-exp.srt-sec-no-manage .btn-add,#cp-fr.srt-sec-no-manage .btn-add,
+#cp-inv.srt-sec-no-manage .row-acts,#cp-pay.srt-sec-no-manage .row-acts,#cp-cp.srt-sec-no-manage .row-acts,#cp-rp.srt-sec-no-manage .row-acts,#cp-exp.srt-sec-no-manage .row-acts,#cp-fr.srt-sec-no-manage .fr-acts{display:none!important;}
+#cp-inv.srt-sec-no-transfer .xport-wrap,#cp-pay.srt-sec-no-transfer .xport-wrap,#cp-cp.srt-sec-no-transfer .xport-wrap,#cp-rp.srt-sec-no-transfer .xport-wrap,#cp-exp.srt-sec-no-transfer .xport-wrap,#cp-fr.srt-sec-no-transfer .xport-wrap{display:none!important;}
+#cp-gps.srt-sec-no-manage .gps-form-panel,#cp-gps.srt-sec-no-manage .gps-act-col,#cp-gps.srt-sec-no-manage [data-gps-action]{display:none!important;}
+#cp-gps.srt-sec-no-manage .sys-page-hdr>div:last-child>.gps-btn:first-child{display:none!important;}
+#cp-gps.srt-sec-no-transfer .gps-ie-wrap{display:none!important;}

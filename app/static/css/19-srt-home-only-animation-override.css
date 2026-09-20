@@ -1,0 +1,43 @@
+
+/* User preference: animation is limited to the public Home page only. */
+#pg-login,
+#pg-login *,
+#pg-login *::before,
+#pg-login *::after,
+#pg-dash,
+#pg-dash *,
+#pg-dash *::before,
+#pg-dash *::after{
+  animation:none!important;
+  animation-delay:0s!important;
+  transition:none!important;
+  scroll-behavior:auto!important;
+}
+
+/* Remove motion-specific transforms/effects from internal pages while preserving layout. */
+#pg-login.active,
+#pg-dash.active,
+#pg-dash .cp.active,
+#pg-dash .ni:hover,
+#pg-dash .ib:hover,
+#pg-dash .tb-av:hover,
+#pg-dash .sb-av:hover,
+#pg-dash .kpi:hover,
+#pg-dash .panel:hover,
+#pg-dash .att-card:hover,
+#pg-dash .exp-stat:hover,
+#pg-dash .fr-card:hover,
+#pg-dash .gps-stat-card:hover,
+#pg-dash .srt-profile-card:hover,
+#pg-dash .srt-gallery-admin-card:hover,
+#pg-dash .modal-close:hover{
+  transform:none!important;
+}
+
+/* Keep ordinary non-animated visual hover feedback where useful. */
+#pg-dash .ni:hover{opacity:.9!important;}
+#pg-dash .act-btn:hover,
+#pg-dash .gps-btn:hover,
+#pg-dash .btn-add:hover,
+#pg-dash .btn-export:hover,
+#pg-login .btn-login:hover{transform:none!important;}

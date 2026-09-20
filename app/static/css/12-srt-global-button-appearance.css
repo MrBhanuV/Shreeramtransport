@@ -1,0 +1,165 @@
+
+/* Consistent professional button appearance across internal pages. */
+#pg-login button,
+#pg-dash button {
+  -webkit-appearance:none;
+  appearance:none;
+  font-family:'DM Sans',sans-serif;
+  font-weight:700;
+  line-height:1.15;
+  border-radius:7px;
+  cursor:pointer;
+}
+
+/* Standard text/action buttons */
+#pg-login button:not(.pw-t),
+#pg-dash button:not(.menu-toggle):not(.theme-toggle):not(.ib):not(.modal-close):not(.srt-user-modal-close):not(.home-gallery-dot):not(.icon-only):not(.act-btn) {
+  min-height:36px;
+  padding:.55rem .9rem;
+  border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 1px 2px rgba(0,0,0,.16);
+}
+
+/* Previously link-like controls should visibly read as buttons. */
+#pg-login .srt-register-link,
+#pg-login .home-login-back,
+#pg-dash .btn-export,
+#pg-dash .btn-add,
+#pg-dash .hdr-btn,
+#pg-dash .gps-btn,
+#pg-dash .att-btn-base,
+#pg-dash .att-holiday-btn,
+#pg-dash .srt-mini-btn,
+#pg-dash .srt-profile-action,
+#pg-dash .srt-profile-photo-btn,
+#pg-dash .srt-btn-access,
+#pg-dash .srt-request-accept,
+#pg-dash .srt-request-reject,
+#pg-dash .module-view-tab,
+#pg-dash .att-tab-btn,
+#pg-dash .btn-primary,
+#pg-dash .btn-green,
+#pg-dash .btn-ghost,
+#pg-dash .btn-save,
+#pg-dash .btn-cancel,
+#pg-dash .btn-del-c,
+#pg-dash .status-btn,
+#pg-dash .srt-modal-save,
+#pg-dash .srt-modal-cancel {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.38rem;
+  min-height:36px;
+  padding:.55rem .9rem;
+  border-radius:7px !important;
+  border:1px solid rgba(255,255,255,.18) !important;
+  background:#13283d;
+  color:#f5f7fb;
+  text-decoration:none;
+  box-shadow:0 1px 2px rgba(0,0,0,.18);
+  opacity:1;
+}
+
+/* Primary SRT buttons */
+#pg-login .btn-login,
+#pg-dash .btn-add,
+#pg-dash .btn-primary,
+#pg-dash .btn-save,
+#pg-dash .srt-modal-save,
+#pg-dash .att-btn-save,
+#pg-dash .gps-btn-orange,
+#pg-dash .att-tab-btn.active,
+#pg-dash .module-view-tab.active,
+#pg-dash .srt-request-accept {
+  background:#ff5a0a !important;
+  border-color:#ff7a36 !important;
+  color:#fff !important;
+}
+
+/* Secondary/ghost buttons */
+#pg-dash .btn-export,
+#pg-dash .btn-ghost,
+#pg-dash .gps-btn-ghost,
+#pg-dash .att-btn-ghost,
+#pg-dash .att-btn-cancel,
+#pg-dash .srt-modal-cancel,
+#pg-dash .module-view-tab:not(.active),
+#pg-dash .att-tab-btn:not(.active) {
+  background:#102236 !important;
+  color:#e8f1fa !important;
+  border-color:#30465b !important;
+}
+
+/* Destructive actions */
+#pg-dash .danger,
+#pg-dash .gps-btn-red,
+#pg-dash .att-btn-del,
+#pg-dash .btn-del-c,
+#pg-dash .srt-btn-delete,
+#pg-dash .srt-request-reject {
+  background:#4a1f2a !important;
+  color:#ffb6c0 !important;
+  border-color:#7b3343 !important;
+}
+
+/* Icon-only actions remain compact but clearly button-shaped. */
+#pg-dash .icon-only,
+#pg-dash .act-btn,
+#pg-dash .ib,
+#pg-dash .theme-toggle,
+#pg-dash .modal-close,
+#pg-dash .srt-user-modal-close,
+#pg-login .pw-t {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:36px;
+  height:36px;
+  min-width:36px;
+  padding:0 !important;
+  border-radius:7px !important;
+  border:1px solid rgba(255,255,255,.16) !important;
+  background:#13283d;
+  color:#f5f7fb;
+  opacity:1;
+  box-shadow:0 1px 2px rgba(0,0,0,.16);
+}
+#pg-dash .act-edit {background:#0f4054 !important;color:#7ee8ff !important;border-color:#17647c !important;}
+#pg-dash .act-del {background:#492332 !important;color:#ffb6c0 !important;border-color:#71354a !important;}
+
+/* Hamburger keeps its special shape. */
+#pg-dash .menu-toggle {
+  border:1px solid rgba(255,255,255,.16) !important;
+  background:#13283d !important;
+  border-radius:7px !important;
+  width:38px;
+  height:36px;
+  padding:7px !important;
+}
+
+/* Clear hover/focus states without internal-page animation. */
+#pg-login button:hover,
+#pg-dash button:hover {filter:brightness(1.12);}
+#pg-login button:active,
+#pg-dash button:active {filter:brightness(.96);}
+#pg-login button:focus-visible,
+#pg-dash button:focus-visible {outline:2px solid #00c8ff;outline-offset:2px;}
+#pg-login button:disabled,
+#pg-dash button:disabled {opacity:.5;cursor:not-allowed;filter:none;}
+
+/* Light theme variants */
+html[data-theme="light"] #pg-login button:not(.btn-login),
+html[data-theme="light"] #pg-dash button:not(.btn-add):not(.btn-primary):not(.btn-save):not(.srt-modal-save):not(.att-btn-save):not(.gps-btn-orange):not(.danger):not(.gps-btn-red):not(.att-btn-del):not(.btn-del-c):not(.srt-btn-delete):not(.srt-request-reject):not(.act-del):not(.act-edit) {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#cbd5e1 !important;
+  box-shadow:0 1px 2px rgba(15,23,42,.08);
+}
+html[data-theme="light"] #pg-dash .att-tab-btn.active,
+html[data-theme="light"] #pg-dash .module-view-tab.active,
+html[data-theme="light"] #pg-dash .srt-request-accept {
+  background:#ff5a0a !important;
+  color:#fff !important;
+  border-color:#ff7a36 !important;
+}

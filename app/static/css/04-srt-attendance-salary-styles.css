@@ -1,0 +1,80 @@
+
+/* ══════════ ATTENDANCE + PAYROLL EXTENSION ══════════ */
+:root{--wfh:#3b82f6;--wfh-bg:rgba(59,130,246,.13);--holiday:#a855f7;--holiday-bg:rgba(168,85,247,.13);}
+.status-btn.active-WFH{background:var(--wfh-bg);color:var(--wfh);border-color:var(--wfh);opacity:1;}
+.status-pill-WFH{background:var(--wfh-bg);color:var(--wfh);}
+.sc-wfh::before{background:var(--wfh);}.sc-wfh .sc-num{color:var(--wfh);}
+.att-holiday-btn{background:rgba(168,85,247,.14);border:1px solid rgba(168,85,247,.42);color:#c084fc;padding:.5rem .9rem;font-size:.78rem;font-weight:700;cursor:pointer;white-space:nowrap;transition:.18s ease;}
+.att-holiday-btn:hover{background:rgba(168,85,247,.22);}
+.att-holiday-btn.active{background:var(--holiday);border-color:var(--holiday);color:#fff;}
+.att-holiday-note{font-size:.74rem;padding:.38rem .65rem;background:var(--holiday-bg);color:#c084fc;border:1px solid rgba(168,85,247,.28);display:none;}
+.att-holiday-note.show{display:block;}
+.cal-paid-off{margin-top:.35rem;font-size:.65rem;font-weight:700;padding:.2rem .45rem;background:rgba(168,85,247,.13);color:#c084fc;}
+.cal-paid-sunday{margin-top:.35rem;font-size:.65rem;font-weight:700;padding:.2rem .45rem;background:rgba(0,200,255,.10);color:var(--cyan);}
+
+.stat-cards{grid-template-columns:repeat(6,1fr);}
+@media(max-width:1200px){.stat-cards{grid-template-columns:repeat(3,1fr);}}
+@media(max-width:700px){.stat-cards{grid-template-columns:repeat(2,1fr);}}
+
+/* Monthly attendance & salary */
+.salary-shell{display:flex;flex-direction:column;gap:1rem;}
+.salary-toolbar{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;background:var(--card);border:1px solid var(--border);padding:.9rem 1rem;}
+.salary-toolbar label{font-size:.73rem;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.04em;}
+.salary-toolbar input,.salary-toolbar select{background:var(--inp);border:1px solid var(--border);color:var(--white);font-family:inherit;font-size:.84rem;padding:.52rem .72rem;outline:none;}
+.salary-toolbar input:focus,.salary-toolbar select:focus{border-color:var(--orange);}
+.salary-rule-card{background:linear-gradient(135deg,rgba(255,69,0,.09),rgba(0,200,255,.05));border:1px solid var(--border);border-left:3px solid var(--orange);padding:1rem 1.1rem;}
+.salary-rule-card h4{font-size:.9rem;margin-bottom:.55rem;}
+.salary-rule-grid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:.55rem;}
+.salary-rule-item{font-size:.75rem;line-height:1.45;opacity:.72;background:rgba(255,255,255,.025);padding:.6rem .7rem;border:1px solid var(--border);}
+.salary-rule-item strong{display:block;opacity:1;margin-bottom:.15rem;}
+.salary-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;}
+.salary-kpi{background:var(--card);border:1px solid var(--border);padding:.65rem .75rem;border-top:3px solid var(--cyan);}
+.salary-kpi:nth-child(2){border-top-color:var(--orange)}.salary-kpi:nth-child(3){border-top-color:var(--wfh)}.salary-kpi:nth-child(4){border-top-color:var(--green)}
+.salary-kpi .sk-lbl{font-size:.63rem;opacity:.48;text-transform:uppercase;font-weight:700;letter-spacing:.04em;}
+.salary-kpi .sk-val{font-family:'Bebas Neue',sans-serif;font-size:1.45rem;line-height:1.1;margin-top:.2rem;}
+.salary-summary-card,.salary-calc-card{background:var(--card);border:1px solid var(--border);padding:1rem;}
+.salary-section-title{display:flex;align-items:flex-end;justify-content:space-between;gap:.7rem;margin-bottom:.8rem;flex-wrap:wrap;}
+.salary-section-title h3{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:.5px;}
+.salary-section-title p{font-size:.72rem;opacity:.45;}
+.salary-table-wrap{overflow:auto;border:1px solid var(--border);}
+.salary-table{width:100%;border-collapse:collapse;font-size:.76rem;min-width:1280px;}
+.salary-table thead th{background:#0a1826;text-align:left;font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;opacity:.56;padding:.58rem .55rem;border-bottom:1px solid var(--border);white-space:nowrap;position:sticky;top:0;z-index:1;}
+.salary-table tbody td{padding:.58rem .55rem;border-bottom:1px solid var(--border);white-space:nowrap;}
+.salary-table tbody tr:hover{background:rgba(255,255,255,.03);}
+.salary-money{font-family:'Bebas Neue',sans-serif;font-size:.95rem;letter-spacing:.2px;}
+.salary-net{color:var(--green);font-weight:800;}
+.salary-wfh-ded{color:#fb923c;font-weight:700;}
+.salary-missing{color:var(--yellow);font-weight:700;}
+.salary-calc-grid{display:grid;grid-template-columns:minmax(220px,.7fr) minmax(0,1.6fr);gap:1rem;align-items:start;}
+.salary-employee-box{background:rgba(255,255,255,.025);border:1px solid var(--border);padding:.9rem;}
+.salary-employee-box label{display:block;font-size:.7rem;opacity:.5;text-transform:uppercase;font-weight:700;margin-bottom:.4rem;}
+.salary-employee-box select{width:100%;background:var(--inp);border:1px solid var(--border);color:var(--white);padding:.58rem .7rem;font-family:inherit;outline:none;}
+.salary-breakdown{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;}
+.salary-break-item{border:1px solid var(--border);padding:.65rem .7rem;background:rgba(255,255,255,.02);}
+.salary-break-item span{display:block;font-size:.65rem;opacity:.48;text-transform:uppercase;margin-bottom:.22rem;}
+.salary-break-item strong{font-size:.86rem;}
+.salary-formula{grid-column:1/-1;font-size:.73rem;line-height:1.55;opacity:.62;padding:.65rem .75rem;background:rgba(0,200,255,.05);border-left:2px solid var(--cyan);}
+
+@media(max-width:1100px){.salary-rule-grid{grid-template-columns:repeat(2,1fr)}.salary-kpis{grid-template-columns:repeat(2,1fr)}.salary-calc-grid{grid-template-columns:1fr}.salary-breakdown{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.salary-rule-grid,.salary-kpis,.salary-breakdown{grid-template-columns:1fr}.att-holiday-btn{width:100%}}
+
+/* Light theme */
+html[data-theme="light"] #cp-att .salary-toolbar,
+html[data-theme="light"] #cp-att .salary-summary-card,
+html[data-theme="light"] #cp-att .salary-calc-card,
+html[data-theme="light"] #cp-att .salary-employee-box,
+html[data-theme="light"] #cp-att .salary-kpi,
+html[data-theme="light"] #cp-att .salary-rule-card{background:#fff!important;color:#000!important;border-color:#d7dfe8!important;}
+html[data-theme="light"] #cp-att .salary-rule-item,
+html[data-theme="light"] #cp-att .salary-break-item{background:#f8fafc!important;color:#000!important;border-color:#e0e6ed!important;}
+html[data-theme="light"] #cp-att .salary-toolbar input,
+html[data-theme="light"] #cp-att .salary-toolbar select,
+html[data-theme="light"] #cp-att .salary-employee-box select{background:#f6f8fb!important;color:#000!important;border-color:#cfd8e3!important;}
+html[data-theme="light"] #cp-att .salary-table-wrap{background:#fff!important;border-color:#d7dfe8!important;}
+html[data-theme="light"] #cp-att .salary-table thead th{background:#eef3f8!important;color:#000!important;border-color:#dbe3ec!important;opacity:.72;}
+html[data-theme="light"] #cp-att .salary-table tbody td{background:#fff;color:#000!important;border-color:#e3e8ef!important;}
+html[data-theme="light"] #cp-att .salary-table tbody tr:hover td{background:#f7f9fc!important;}
+html[data-theme="light"] #cp-att .salary-formula{background:#eefbff!important;color:#0f172a!important;}
+html[data-theme="light"] #cp-att .att-holiday-note{background:#f8efff!important;color:#6b21a8!important;border-color:#e4c6f7!important;}
+html[data-theme="light"] #cp-att .att-holiday-btn{background:#f8efff!important;color:#6b21a8!important;border-color:#d8b4fe!important;}
+html[data-theme="light"] #cp-att .att-holiday-btn.active{background:#9333ea!important;color:#fff!important;border-color:#9333ea!important;}

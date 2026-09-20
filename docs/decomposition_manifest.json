@@ -1,0 +1,299 @@
+{
+  "media": [
+    {
+      "file": "logo-f4835a481d13.png",
+      "bytes": 167601,
+      "ext": "png"
+    },
+    {
+      "file": "logo-6b678bb90cfb.png",
+      "bytes": 122715,
+      "ext": "png"
+    },
+    {
+      "file": "logo-3c3cf15db4a4.png",
+      "bytes": 64358,
+      "ext": "png"
+    }
+  ],
+  "css_blocks": [
+    {
+      "order": 1,
+      "name": "base-01",
+      "file": "01-base-01.css",
+      "chars": 120761
+    },
+    {
+      "order": 2,
+      "name": "srt-profile-page-styles",
+      "file": "02-srt-profile-page-styles.css",
+      "chars": 7289
+    },
+    {
+      "order": 3,
+      "name": "srt-account-management-styles",
+      "file": "03-srt-account-management-styles.css",
+      "chars": 10401
+    },
+    {
+      "order": 4,
+      "name": "srt-attendance-salary-styles",
+      "file": "04-srt-attendance-salary-styles.css",
+      "chars": 7646
+    },
+    {
+      "order": 5,
+      "name": "srt-registration-workflow-styles",
+      "file": "05-srt-registration-workflow-styles.css",
+      "chars": 1676
+    },
+    {
+      "order": 6,
+      "name": "srt-light-theme-contrast-final-fix",
+      "file": "06-srt-light-theme-contrast-final-fix.css",
+      "chars": 13223
+    },
+    {
+      "order": 7,
+      "name": "srt-home-color-harmony",
+      "file": "07-srt-home-color-harmony.css",
+      "chars": 10757
+    },
+    {
+      "order": 8,
+      "name": "srt-professional-motion-styles",
+      "file": "08-srt-professional-motion-styles.css",
+      "chars": 11936
+    },
+    {
+      "order": 9,
+      "name": "srt-home-dark-sections",
+      "file": "09-srt-home-dark-sections.css",
+      "chars": 1614
+    },
+    {
+      "order": 10,
+      "name": "srt-month-data-styles",
+      "file": "10-srt-month-data-styles.css",
+      "chars": 4958
+    },
+    {
+      "order": 11,
+      "name": "srt-attendance-button-tabs-style",
+      "file": "11-srt-attendance-button-tabs-style.css",
+      "chars": 2171
+    },
+    {
+      "order": 12,
+      "name": "srt-global-button-appearance",
+      "file": "12-srt-global-button-appearance.css",
+      "chars": 4837
+    },
+    {
+      "order": 13,
+      "name": "srt-lora-notification-chat-style",
+      "file": "13-srt-lora-notification-chat-style.css",
+      "chars": 11487
+    },
+    {
+      "order": 14,
+      "name": "srt-vehicle-rc-image-styles",
+      "file": "14-srt-vehicle-rc-image-styles.css",
+      "chars": 974
+    },
+    {
+      "order": 15,
+      "name": "srt-google-sheets-sync-styles",
+      "file": "15-srt-google-sheets-sync-styles.css",
+      "chars": 1603
+    },
+    {
+      "order": 16,
+      "name": "srt-section-permission-styles",
+      "file": "16-srt-section-permission-styles.css",
+      "chars": 1939
+    },
+    {
+      "order": 17,
+      "name": "srt-click-motion-style",
+      "file": "17-srt-click-motion-style.css",
+      "chars": 178
+    },
+    {
+      "order": 18,
+      "name": "srt-sidebar-gap-fix",
+      "file": "18-srt-sidebar-gap-fix.css",
+      "chars": 350
+    },
+    {
+      "order": 19,
+      "name": "srt-home-only-animation-override",
+      "file": "19-srt-home-only-animation-override.css",
+      "chars": 1116
+    },
+    {
+      "order": 20,
+      "name": "srt-record-print-and-small-actions",
+      "file": "20-srt-record-print-and-small-actions.css",
+      "chars": 3061
+    },
+    {
+      "order": 21,
+      "name": "srt-freight-action-icon-cleanup",
+      "file": "21-srt-freight-action-icon-cleanup.css",
+      "chars": 1602
+    },
+    {
+      "order": 22,
+      "name": "srt-light-theme-compatibility-v2",
+      "file": "22-srt-light-theme-compatibility-v2.css",
+      "chars": 10780
+    },
+    {
+      "order": 23,
+      "name": "srt-match-add-button-style",
+      "file": "23-srt-match-add-button-style.css",
+      "chars": 766
+    },
+    {
+      "order": 24,
+      "name": "srt-attendance-add-light-final-fix",
+      "file": "24-srt-attendance-add-light-final-fix.css",
+      "chars": 477
+    },
+    {
+      "order": 25,
+      "name": "srt-attendance-selected-status-fix",
+      "file": "25-srt-attendance-selected-status-fix.css",
+      "chars": 2042
+    },
+    {
+      "order": 26,
+      "name": "srt-light-theme-effects-final",
+      "file": "26-srt-light-theme-effects-final.css",
+      "chars": 17843
+    },
+    {
+      "order": 27,
+      "name": "srt-interactive-login-styles",
+      "file": "27-srt-interactive-login-styles.css",
+      "chars": 14702
+    },
+    {
+      "order": 28,
+      "name": "srt-import-demo-styles",
+      "file": "28-srt-import-demo-styles.css",
+      "chars": 217
+    },
+    {
+      "order": 29,
+      "name": "srt-transfer-system-styles",
+      "file": "29-srt-transfer-system-styles.css",
+      "chars": 11064
+    },
+    {
+      "order": 30,
+      "name": "srt-notification-layout-fix",
+      "file": "30-srt-notification-layout-fix.css",
+      "chars": 1539
+    }
+  ],
+  "js_blocks": [
+    {
+      "order": 1,
+      "name": "core-01",
+      "file": "01-core-01.js",
+      "chars": 235
+    },
+    {
+      "order": 2,
+      "name": "core-02",
+      "file": "02-core-02.js",
+      "chars": 352484
+    },
+    {
+      "order": 3,
+      "name": "core-03",
+      "file": "03-core-03.js",
+      "chars": 3396
+    },
+    {
+      "order": 4,
+      "name": "srt-separate-month-views",
+      "file": "04-srt-separate-month-views.js",
+      "chars": 1004
+    },
+    {
+      "order": 5,
+      "name": "srt-account-management-script",
+      "file": "05-srt-account-management-script.js",
+      "chars": 35464
+    },
+    {
+      "order": 6,
+      "name": "srt-registration-workflow-script",
+      "file": "06-srt-registration-workflow-script.js",
+      "chars": 9880
+    },
+    {
+      "order": 7,
+      "name": "srt-gallery-script",
+      "file": "07-srt-gallery-script.js",
+      "chars": 10697
+    },
+    {
+      "order": 8,
+      "name": "srt-home-page-script",
+      "file": "08-srt-home-page-script.js",
+      "chars": 2865
+    },
+    {
+      "order": 9,
+      "name": "srt-professional-motion-script",
+      "file": "09-srt-professional-motion-script.js",
+      "chars": 2929
+    },
+    {
+      "order": 10,
+      "name": "srt-notification-chat-script",
+      "file": "10-srt-notification-chat-script.js",
+      "chars": 19570
+    },
+    {
+      "order": 11,
+      "name": "srt-record-print-script",
+      "file": "11-srt-record-print-script.js",
+      "chars": 5926
+    },
+    {
+      "order": 12,
+      "name": "srt-google-sheets-sync-script",
+      "file": "12-srt-google-sheets-sync-script.js",
+      "chars": 9827
+    },
+    {
+      "order": 13,
+      "name": "srt-interactive-login-script",
+      "file": "13-srt-interactive-login-script.js",
+      "chars": 8008
+    },
+    {
+      "order": 14,
+      "name": "srt-import-demo-script",
+      "file": "14-srt-import-demo-script.js",
+      "chars": 4690
+    },
+    {
+      "order": 15,
+      "name": "srt-transfer-system-script",
+      "file": "15-srt-transfer-system-script.js",
+      "chars": 19343
+    },
+    {
+      "order": 16,
+      "name": "srt-tax-invoice-module",
+      "file": "16-srt-tax-invoice-module.js",
+      "chars": 562604
+    }
+  ]
+}

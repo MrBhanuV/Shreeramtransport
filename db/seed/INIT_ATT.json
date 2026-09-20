@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Junaid Mansuri",
+    "present": 11,
+    "wfh": 20,
+    "absent": 0,
+    "total": 31
+  },
+  {
+    "name": "Amit Kumar",
+    "present": 31,
+    "wfh": 0,
+    "absent": 0,
+    "total": 31
+  },
+  {
+    "name": "Vikash Kumar",
+    "present": 31,
+    "wfh": 0,
+    "absent": 0,
+    "total": 31
+  },
+  {
+    "name": "Maqsood Ali",
+    "present": 28,
+    "wfh": 0,
+    "absent": 3,
+    "total": 28
+  },
+  {
+    "name": "Nandini Gokhe",
+    "present": 28,
+    "wfh": 0,
+    "absent": 3,
+    "total": 28
+  },
+  {
+    "name": "Arvind Jatav",
+    "present": 26,
+    "wfh": 0,
+    "absent": 5,
+    "total": 26
+  }
+]

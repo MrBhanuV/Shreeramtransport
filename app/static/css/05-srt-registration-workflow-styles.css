@@ -1,0 +1,9 @@
+
+.srt-register-row{display:flex;align-items:center;justify-content:center;gap:.45rem;margin-top:1rem;font-size:.78rem;opacity:.78;flex-wrap:wrap}
+.srt-register-link{border:none;background:none;color:var(--cyan);font:700 .78rem 'DM Sans',sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.srt-register-link:hover{color:var(--orange)}
+.srt-request-table td{vertical-align:top;white-space:normal;min-width:120px}.srt-request-meta{font-size:.72rem;line-height:1.5;opacity:.64;margin-top:.16rem}.srt-request-name{font-weight:700}.srt-request-aadhaar{font-family:monospace;font-size:.74rem}
+.srt-request-actions{display:flex;gap:.4rem;flex-wrap:wrap}.srt-request-accept,.srt-request-reject{border:none;padding:.38rem .58rem;font-size:.72rem;font-weight:700;cursor:pointer}.srt-request-accept{background:rgba(34,197,94,.15);color:#4ade80}.srt-request-reject{background:rgba(239,68,68,.15);color:#f87171}
+.srt-request-summary{border:1px solid var(--border);background:rgba(255,255,255,.025);padding:.85rem;margin-bottom:.85rem;font-size:.8rem;line-height:1.65}.srt-request-summary strong{font-weight:700}.srt-access-manager-only[hidden]{display:none!important}
+html[data-theme="light"] .srt-register-link{color:#007a9d!important}html[data-theme="light"] .srt-request-summary{background:#f8fafc!important;border-color:#dce3eb!important;color:#000!important}html[data-theme="light"] .srt-request-accept{color:#166534!important;background:#dcfce7!important}html[data-theme="light"] .srt-request-reject{color:#b91c1c!important;background:#fee2e2!important}
+@media(max-width:620px){.srt-register-row{align-items:flex-start}.srt-request-table{min-width:760px}}

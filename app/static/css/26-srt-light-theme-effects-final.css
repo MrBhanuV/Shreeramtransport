@@ -1,0 +1,262 @@
+
+/* ═══════════════════════════════════════════════════════════════
+   FINAL LIGHT THEME EFFECT / STATE COMPATIBILITY
+   Keeps Dark Theme untouched. Restores visible hover, active,
+   selected, status, badge and focus states on light surfaces.
+   No dashboard animations are reintroduced.
+═══════════════════════════════════════════════════════════════ */
+
+/* Focus states: controls must remain obvious on white backgrounds */
+html[data-theme="light"] #pg-dash input:focus,
+html[data-theme="light"] #pg-dash select:focus,
+html[data-theme="light"] #pg-dash textarea:focus,
+html[data-theme="light"] #pg-dash .tb-search input:focus,
+html[data-theme="light"] #pg-dash .tb-toolbar input:focus,
+html[data-theme="light"] #pg-dash .gps-filter-bar input:focus,
+html[data-theme="light"] #pg-dash .gps-filter-bar select:focus {
+  border-color:#ff5a0a !important;
+  outline:2px solid rgba(255,90,10,.12) !important;
+  outline-offset:0 !important;
+  box-shadow:0 0 0 1px rgba(255,90,10,.08) !important;
+}
+
+/* Primary actions: Add / Save / orange actions */
+html[data-theme="light"] #pg-dash .btn-add,
+html[data-theme="light"] #pg-dash .btn-primary,
+html[data-theme="light"] #pg-dash .btn-save,
+html[data-theme="light"] #pg-dash .srt-modal-save,
+html[data-theme="light"] #pg-dash .att-btn-save,
+html[data-theme="light"] #pg-dash .att-btn-primary,
+html[data-theme="light"] #pg-dash .gps-btn-orange,
+html[data-theme="light"] #pg-dash .srt-request-accept,
+html[data-theme="light"] #pg-dash #gpsViewRecordsBtn,
+html[data-theme="light"] #pg-dash #cp-att .srt-match-add-btn,
+html[data-theme="light"] #pg-dash #cp-gps .srt-match-add-btn {
+  background:#ff5a0a !important;
+  color:#ffffff !important;
+  border-color:#ff5a0a !important;
+  box-shadow:0 2px 5px rgba(255,90,10,.18) !important;
+  filter:none !important;
+}
+html[data-theme="light"] #pg-dash .btn-add:hover,
+html[data-theme="light"] #pg-dash .btn-primary:hover,
+html[data-theme="light"] #pg-dash .btn-save:hover,
+html[data-theme="light"] #pg-dash .srt-modal-save:hover,
+html[data-theme="light"] #pg-dash .att-btn-save:hover,
+html[data-theme="light"] #pg-dash .att-btn-primary:hover,
+html[data-theme="light"] #pg-dash .gps-btn-orange:hover,
+html[data-theme="light"] #pg-dash .srt-request-accept:hover,
+html[data-theme="light"] #pg-dash #gpsViewRecordsBtn:hover,
+html[data-theme="light"] #pg-dash #cp-att .srt-match-add-btn:hover,
+html[data-theme="light"] #pg-dash #cp-gps .srt-match-add-btn:hover {
+  background:#e94d00 !important;
+  color:#ffffff !important;
+  border-color:#e94d00 !important;
+  box-shadow:0 3px 8px rgba(233,77,0,.20) !important;
+}
+
+/* Secondary / Export / Print / navigation actions */
+html[data-theme="light"] #pg-dash .btn-export,
+html[data-theme="light"] #pg-dash .btn-ghost,
+html[data-theme="light"] #pg-dash .gps-btn-ghost,
+html[data-theme="light"] #pg-dash .att-btn-ghost,
+html[data-theme="light"] #pg-dash .att-btn-cancel,
+html[data-theme="light"] #pg-dash .srt-modal-cancel,
+html[data-theme="light"] #pg-dash .srt-mini-btn,
+html[data-theme="light"] #pg-dash .srt-profile-action,
+html[data-theme="light"] #pg-dash .hdr-btn:not(.btn-green):not(.btn-primary),
+html[data-theme="light"] #pg-dash .tbl-pager button:not(:disabled),
+html[data-theme="light"] #pg-dash .gps-pager button:not(:disabled) {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#c6d1de !important;
+  box-shadow:0 1px 3px rgba(15,23,42,.08) !important;
+  filter:none !important;
+}
+html[data-theme="light"] #pg-dash .btn-export:hover,
+html[data-theme="light"] #pg-dash .btn-ghost:hover,
+html[data-theme="light"] #pg-dash .gps-btn-ghost:hover,
+html[data-theme="light"] #pg-dash .att-btn-ghost:hover,
+html[data-theme="light"] #pg-dash .att-btn-cancel:hover,
+html[data-theme="light"] #pg-dash .srt-modal-cancel:hover,
+html[data-theme="light"] #pg-dash .srt-mini-btn:hover,
+html[data-theme="light"] #pg-dash .srt-profile-action:hover,
+html[data-theme="light"] #pg-dash .hdr-btn:not(.btn-green):not(.btn-primary):hover,
+html[data-theme="light"] #pg-dash .tbl-pager button:not(:disabled):hover,
+html[data-theme="light"] #pg-dash .gps-pager button:not(:disabled):hover {
+  background:#fff4ed !important;
+  color:#c63b00 !important;
+  border-color:#ff8a50 !important;
+  box-shadow:0 2px 5px rgba(255,90,10,.10) !important;
+}
+
+/* Green / destructive actions */
+html[data-theme="light"] #pg-dash .btn-green,
+html[data-theme="light"] #pg-dash .att-btn-green {
+  background:#168a46 !important;color:#fff !important;border-color:#168a46 !important;
+}
+html[data-theme="light"] #pg-dash .btn-green:hover,
+html[data-theme="light"] #pg-dash .att-btn-green:hover {background:#10723a !important;border-color:#10723a !important;}
+html[data-theme="light"] #pg-dash .danger,
+html[data-theme="light"] #pg-dash .gps-btn-red,
+html[data-theme="light"] #pg-dash .att-btn-del,
+html[data-theme="light"] #pg-dash .btn-del-c,
+html[data-theme="light"] #pg-dash .srt-btn-delete,
+html[data-theme="light"] #pg-dash .srt-request-reject {
+  background:#fff0f2 !important;color:#b42335 !important;border-color:#efb8c1 !important;
+}
+html[data-theme="light"] #pg-dash .danger:hover,
+html[data-theme="light"] #pg-dash .gps-btn-red:hover,
+html[data-theme="light"] #pg-dash .att-btn-del:hover,
+html[data-theme="light"] #pg-dash .btn-del-c:hover,
+html[data-theme="light"] #pg-dash .srt-btn-delete:hover,
+html[data-theme="light"] #pg-dash .srt-request-reject:hover {
+  background:#b42335 !important;color:#fff !important;border-color:#b42335 !important;
+}
+
+/* Module tabs / Attendance tabs */
+html[data-theme="light"] #pg-dash .module-view-tab:not(.active),
+html[data-theme="light"] #pg-dash .att-tab-btn:not(.active) {
+  background:#ffffff !important;color:#24364d !important;border-color:#cbd5e1 !important;box-shadow:0 1px 2px rgba(15,23,42,.06) !important;
+}
+html[data-theme="light"] #pg-dash .module-view-tab:not(.active):hover,
+html[data-theme="light"] #pg-dash .att-tab-btn:not(.active):hover {
+  background:#fff4ed !important;color:#c63b00 !important;border-color:#ff8a50 !important;
+}
+html[data-theme="light"] #pg-dash .module-view-tab.active,
+html[data-theme="light"] #pg-dash .att-tab-btn.active {
+  background:#ff5a0a !important;color:#fff !important;border-color:#ff5a0a !important;box-shadow:0 2px 5px rgba(255,90,10,.18) !important;
+}
+
+/* Attendance selected status colors — must override generic light button rule */
+html[data-theme="light"] body #pg-dash #cp-att .status-btn:not([class*="active-"]) {
+  background:#ffffff !important;color:#334155 !important;border-color:#cbd5e1 !important;box-shadow:none !important;opacity:1 !important;
+}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn:not([class*="active-"]):hover {
+  background:#f1f5f9 !important;color:#111827 !important;border-color:#94a3b8 !important;
+}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn.active-Present {background:#168a46 !important;color:#fff !important;border-color:#168a46 !important;box-shadow:0 0 0 2px rgba(22,138,70,.14) !important;}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn.active-WFH {background:#2563eb !important;color:#fff !important;border-color:#2563eb !important;box-shadow:0 0 0 2px rgba(37,99,235,.14) !important;}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn.active-Absent {background:#dc2626 !important;color:#fff !important;border-color:#dc2626 !important;box-shadow:0 0 0 2px rgba(220,38,38,.14) !important;}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn.active-Late {background:#d97706 !important;color:#fff !important;border-color:#d97706 !important;box-shadow:0 0 0 2px rgba(217,119,6,.15) !important;}
+html[data-theme="light"] body #pg-dash #cp-att .status-btn.active-Half-Day {background:#6d5bd0 !important;color:#fff !important;border-color:#6d5bd0 !important;box-shadow:0 0 0 2px rgba(109,91,208,.14) !important;}
+
+/* Attendance pills / calendar / today / holiday visual states */
+html[data-theme="light"] #pg-dash .status-pill-Present {background:#e7f6ed !important;color:#10723a !important;}
+html[data-theme="light"] #pg-dash .status-pill-WFH {background:#eaf1ff !important;color:#1d4ed8 !important;}
+html[data-theme="light"] #pg-dash .status-pill-Absent {background:#feecee !important;color:#b91c1c !important;}
+html[data-theme="light"] #pg-dash .status-pill-Late {background:#fff4db !important;color:#9a5800 !important;}
+html[data-theme="light"] #pg-dash .status-pill-Half-Day {background:#f0edff !important;color:#5845bd !important;}
+html[data-theme="light"] #pg-dash .cal-cell.today .cal-day-num {background:#ff5a0a !important;color:#fff !important;}
+html[data-theme="light"] #pg-dash .cal-cell:hover {background:#fff7f2 !important;}
+html[data-theme="light"] #pg-dash .att-holiday-note {background:#f7efff !important;color:#7e22ce !important;border-color:#d8b4fe !important;}
+
+/* Dashboard KPI accents and icon effects */
+html[data-theme="light"] #pg-dash .kpi {border-color:#d7e0ea !important;}
+html[data-theme="light"] #pg-dash .kpi.or::before {background:#ff5a0a !important;}
+html[data-theme="light"] #pg-dash .kpi.cy::before {background:#007ea8 !important;}
+html[data-theme="light"] #pg-dash .kpi.gn::before {background:#168a46 !important;}
+html[data-theme="light"] #pg-dash .kpi.yw::before {background:#b77900 !important;}
+html[data-theme="light"] #pg-dash .kpi.or .kpi-ico {background:#fff0e8 !important;color:#d43b00 !important;}
+html[data-theme="light"] #pg-dash .kpi.cy .kpi-ico {background:#e7f7fc !important;color:#007ea8 !important;}
+html[data-theme="light"] #pg-dash .kpi.gn .kpi-ico {background:#e7f6ed !important;color:#168a46 !important;}
+html[data-theme="light"] #pg-dash .kpi.yw .kpi-ico {background:#fff5d9 !important;color:#9a6100 !important;}
+html[data-theme="light"] #pg-dash .kpi.or .kpi-val {color:#d43b00 !important;}
+html[data-theme="light"] #pg-dash .kpi.cy .kpi-val {color:#007ea8 !important;}
+html[data-theme="light"] #pg-dash .kpi.gn .kpi-val {color:#168a46 !important;}
+html[data-theme="light"] #pg-dash .kpi.yw .kpi-val {color:#9a6100 !important;}
+html[data-theme="light"] #pg-dash .kpi:hover,
+html[data-theme="light"] #pg-dash .gps-stat-card:hover,
+html[data-theme="light"] #pg-dash .exp-stat:hover,
+html[data-theme="light"] #pg-dash .fr-card:hover,
+html[data-theme="light"] #pg-dash .month-kpi:hover,
+html[data-theme="light"] #pg-dash .salary-kpi:hover {border-color:#ff9b6a !important;box-shadow:0 3px 10px rgba(15,23,42,.08) !important;}
+
+/* GPS colored KPIs, badges and action states */
+html[data-theme="light"] #pg-dash .gps-badge-yes {background:#e7f6ed !important;color:#10723a !important;}
+html[data-theme="light"] #pg-dash .gps-badge-no {background:#fff0e8 !important;color:#c2410c !important;}
+html[data-theme="light"] #pg-dash .gps-type-badge {background:#e7f7fc !important;color:#006b8f !important;}
+html[data-theme="light"] #pg-dash .gps-amt-charged {color:#d43b00 !important;}
+html[data-theme="light"] #pg-dash .gps-amt-returned {color:#168a46 !important;}
+html[data-theme="light"] #pg-dash .gps-amt-late {color:#9a6100 !important;}
+html[data-theme="light"] #pg-dash .gps-amt-balance {color:#c51f2f !important;}
+html[data-theme="light"] #pg-dash .gps-btn-cyan {background:#e7f7fc !important;color:#006b8f !important;border-color:#b9dce6 !important;}
+html[data-theme="light"] #pg-dash .gps-btn-green {background:#e7f6ed !important;color:#10723a !important;border-color:#b7dfc5 !important;}
+
+/* Generic record badges keep semantic colors on light tables */
+html[data-theme="light"] #pg-dash .badge.bg {background:#e7f6ed !important;color:#10723a !important;}
+html[data-theme="light"] #pg-dash .badge.by {background:#fff5d9 !important;color:#8a5700 !important;}
+html[data-theme="light"] #pg-dash .badge.bo {background:#fff0e8 !important;color:#c2410c !important;}
+html[data-theme="light"] #pg-dash .badge.bc {background:#e7f7fc !important;color:#006b8f !important;}
+html[data-theme="light"] #pg-dash .badge.br {background:#feecee !important;color:#b91c1c !important;}
+html[data-theme="light"] #pg-dash .badge.bx {background:#eef2f6 !important;color:#475569 !important;}
+
+/* Expense / month / salary visual accents */
+html[data-theme="light"] #pg-dash .exp-stat .val {color:#d43b00 !important;}
+html[data-theme="light"] #pg-dash .month-kpi:nth-child(1),
+html[data-theme="light"] #pg-dash .salary-kpi:nth-child(1) {border-top-color:#ff5a0a !important;}
+html[data-theme="light"] #pg-dash .month-kpi:nth-child(2),
+html[data-theme="light"] #pg-dash .salary-kpi:nth-child(2) {border-top-color:#007ea8 !important;}
+html[data-theme="light"] #pg-dash .month-kpi:nth-child(3),
+html[data-theme="light"] #pg-dash .salary-kpi:nth-child(3) {border-top-color:#2563eb !important;}
+html[data-theme="light"] #pg-dash .month-kpi:nth-child(4),
+html[data-theme="light"] #pg-dash .salary-kpi:nth-child(4) {border-top-color:#168a46 !important;}
+
+/* Edit / delete compact icons: retain semantic hover in light theme */
+html[data-theme="light"] #pg-dash .act-edit {background:#e7f7fc !important;color:#006b8f !important;border-color:#b9dce6 !important;}
+html[data-theme="light"] #pg-dash .act-del {background:#fff0f2 !important;color:#b42335 !important;border-color:#efc1c8 !important;}
+html[data-theme="light"] #pg-dash .act-edit:hover {background:#007ea8 !important;color:#fff !important;border-color:#007ea8 !important;}
+html[data-theme="light"] #pg-dash .act-del:hover {background:#b42335 !important;color:#fff !important;border-color:#b42335 !important;}
+/* Freight action icons intentionally remain borderless/backgroundless. */
+html[data-theme="light"] #pg-dash #cp-fr .fr-acts .act-btn {background:transparent !important;border:0 !important;box-shadow:none !important;}
+html[data-theme="light"] #pg-dash #cp-fr .fr-acts .act-edit {color:#007ea8 !important;}
+html[data-theme="light"] #pg-dash #cp-fr .fr-acts .act-del {color:#c51f2f !important;}
+
+/* Sidebar / top bar selected & hover states */
+html[data-theme="light"] #pg-dash .ni:hover {background:#f1f5f9 !important;color:#111827 !important;}
+html[data-theme="light"] #pg-dash .ni.active {background:#fff0e8 !important;color:#d43b00 !important;border-left-color:#ff5a0a !important;}
+html[data-theme="light"] #pg-dash .ib:hover,
+html[data-theme="light"] #pg-dash .theme-toggle:hover,
+html[data-theme="light"] #pg-dash .menu-toggle:hover {background:#fff4ed !important;color:#c63b00 !important;border-color:#ff8a50 !important;filter:none !important;}
+
+/* Tables: row hover must remain visible but not overpower semantic cells */
+html[data-theme="light"] #pg-dash tbody tr:hover > td,
+html[data-theme="light"] #pg-dash .gps-table tbody tr:hover > td,
+html[data-theme="light"] #pg-dash .att-table tbody tr:hover > td,
+html[data-theme="light"] #pg-dash .staff-table tbody tr:hover > td {background:#f7f9fc !important;}
+html[data-theme="light"] #pg-dash .gps-table tbody tr:hover > td.gps-act-col {background:#f7f9fc !important;}
+
+/* Profile semantic states */
+html[data-theme="light"] #pg-dash .srt-profile-status {background:#e7f6ed !important;color:#10723a !important;border-color:#b7dfc5 !important;}
+html[data-theme="light"] #pg-dash .srt-profile-chip {background:#e7f7fc !important;color:#006b8f !important;border-color:#b9dce6 !important;}
+html[data-theme="light"] #pg-dash .srt-profile-action:hover {background:#fff4ed !important;color:#c63b00 !important;border-color:#ff8a50 !important;}
+html[data-theme="light"] #pg-dash .srt-profile-action.danger:hover {background:#fff0f2 !important;color:#b42335 !important;border-color:#efb8c1 !important;}
+/* Profile hero intentionally remains dark with white content. */
+html[data-theme="light"] #pg-dash .srt-profile-hero,
+html[data-theme="light"] #pg-dash .srt-profile-hero * {color:#ffffff !important;}
+html[data-theme="light"] #pg-dash .srt-profile-status {color:#10723a !important;}
+
+/* Notification effects */
+html[data-theme="light"] .srt-notif-filter button.active {background:#ff5a0a !important;color:#fff !important;border-color:#ff5a0a !important;}
+html[data-theme="light"] .srt-notif-filter button:not(.active):hover {background:#fff4ed !important;color:#c63b00 !important;border-color:#ff8a50 !important;}
+html[data-theme="light"] .srt-notif-item.unread {background:#fff3ed !important;border-color:#ffd4bd !important;}
+html[data-theme="light"] .srt-notif-item:hover {background:#f7f9fc !important;border-color:#d7e0ea !important;}
+html[data-theme="light"] .srt-top-count {background:#ff4500 !important;color:#fff !important;border-color:#fff !important;}
+
+/* Chat selected conversation + sent message must keep brand colors */
+html[data-theme="light"] .srt-chat-convo.active {background:#fff0e8 !important;border-color:#ff9b6a !important;color:#172033 !important;}
+html[data-theme="light"] .srt-chat-convo:not(.active):hover {background:#eef3f8 !important;}
+html[data-theme="light"] .srt-chat-msg.mine .srt-chat-bubble {background:#ff5a0a !important;color:#fff !important;border-color:#ff5a0a !important;}
+html[data-theme="light"] .srt-chat-msg.mine .srt-chat-sender {color:#fff !important;}
+html[data-theme="light"] .srt-chat-send {background:#ff5a0a !important;color:#fff !important;border-color:#ff5a0a !important;}
+html[data-theme="light"] .srt-chat-send:hover {background:#e94d00 !important;border-color:#e94d00 !important;}
+
+/* Export / dropdown menu hover states */
+html[data-theme="light"] #pg-dash .xport-menu button:hover,
+html[data-theme="light"] #pg-dash .xport-menu .xport-label:hover,
+html[data-theme="light"] #pg-dash .gps-ie-menu button:hover,
+html[data-theme="light"] #pg-dash .gps-ie-menu label:hover,
+html[data-theme="light"] #pg-dash .att-export-menu button:hover {background:#fff4ed !important;color:#c63b00 !important;}
+
+/* Disabled controls remain visibly disabled */
+html[data-theme="light"] #pg-dash button:disabled {background:#eef2f6 !important;color:#94a3b8 !important;border-color:#dbe3ec !important;box-shadow:none !important;filter:none !important;opacity:.72 !important;}

@@ -1,0 +1,5 @@
+
+/* Keep sidebar controls grouped together instead of pushing the account area to the viewport bottom. */
+.sidebar{justify-content:flex-start!important;}
+.sb-collapse-btn{position:static!important;bottom:auto!important;flex-shrink:0!important;}
+.sb-bot{position:static!important;bottom:auto!important;margin-top:0!important;flex-shrink:0!important;}

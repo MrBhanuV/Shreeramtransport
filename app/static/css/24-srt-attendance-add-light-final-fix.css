@@ -1,0 +1,13 @@
+
+html[data-theme="light"] body #pg-dash #cp-att .sys-page-hdr button.btn-add.srt-match-add-btn {
+  background:#ff5a0a !important;
+  color:#ffffff !important;
+  border:1px solid #ff7a36 !important;
+  box-shadow:0 1px 2px rgba(15,23,42,.10) !important;
+  opacity:1 !important;
+}
+html[data-theme="light"] body #pg-dash #cp-att .sys-page-hdr button.btn-add.srt-match-add-btn:hover {
+  background:#e94d00 !important;
+  color:#ffffff !important;
+  border-color:#e94d00 !important;
+}

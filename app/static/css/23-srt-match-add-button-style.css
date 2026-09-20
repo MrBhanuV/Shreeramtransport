@@ -1,0 +1,26 @@
+
+/* Match GPS and Attendance primary Add buttons to Invoice Add button */
+#cp-gps .srt-match-add-btn,
+#cp-att .srt-match-add-btn {
+  background:var(--orange) !important;
+  color:#fff !important;
+  border:none !important;
+  padding:.62rem 1.2rem !important;
+  font-family:inherit !important;
+  font-size:.85rem !important;
+  font-weight:600 !important;
+  line-height:1.2 !important;
+  box-shadow:none !important;
+  opacity:1 !important;
+}
+#cp-gps .srt-match-add-btn:hover,
+#cp-att .srt-match-add-btn:hover {
+  background:#d93c00 !important;
+  color:#fff !important;
+}
+html[data-theme="light"] #cp-gps .srt-match-add-btn,
+html[data-theme="light"] #cp-att .srt-match-add-btn {
+  background:var(--orange) !important;
+  color:#fff !important;
+  border:none !important;
+}

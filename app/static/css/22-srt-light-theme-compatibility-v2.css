@@ -1,0 +1,224 @@
+
+/* Final compatibility pass for the internal dashboard in Light Theme. */
+html[data-theme="light"] #pg-dash,
+html[data-theme="light"] #pg-dash .main,
+html[data-theme="light"] #pg-dash .cp,
+html[data-theme="light"] #pg-dash .gps-scroll-body,
+html[data-theme="light"] #pg-dash .att-tab-pane {
+  background:#f4f7fb !important;
+  color:#172033 !important;
+}
+
+/* Application shell */
+html[data-theme="light"] #pg-dash .sidebar,
+html[data-theme="light"] #pg-dash .topbar,
+html[data-theme="light"] #pg-dash .sb-logo,
+html[data-theme="light"] #pg-dash .sb-bot {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#dbe3ec !important;
+}
+html[data-theme="light"] #pg-dash .ni {color:#334155 !important;}
+html[data-theme="light"] #pg-dash .ni:hover {background:#f1f5f9 !important;color:#111827 !important;}
+html[data-theme="light"] #pg-dash .ni.active {background:#fff0e8 !important;color:#d43b00 !important;border-left-color:#ff4500 !important;}
+html[data-theme="light"] #pg-dash .sb-sect {color:#64748b !important;opacity:.8 !important;}
+html[data-theme="light"] #pg-dash .sb-nm strong {color:#111827 !important;}
+html[data-theme="light"] #pg-dash .sb-nm span {color:#64748b !important;opacity:1 !important;}
+html[data-theme="light"] #pg-dash .menu-toggle,
+html[data-theme="light"] #pg-dash .theme-toggle,
+html[data-theme="light"] #pg-dash .ib {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#cbd5e1 !important;
+  box-shadow:0 1px 3px rgba(15,23,42,.07) !important;
+}
+html[data-theme="light"] #pg-dash .ham {background:#172033 !important;}
+html[data-theme="light"] #pg-dash .srt-top-count {border-color:#ffffff !important;color:#ffffff !important;}
+
+/* Page headers and common content surfaces */
+html[data-theme="light"] #pg-dash .pg-hdr,
+html[data-theme="light"] #pg-dash .sys-page-hdr {
+  background:transparent !important;
+  color:#172033 !important;
+  border-color:#dbe3ec !important;
+}
+html[data-theme="light"] #pg-dash .sys-page-hdr {background:#ffffff !important;}
+html[data-theme="light"] #pg-dash .pg-hdr-left h2,
+html[data-theme="light"] #pg-dash .sys-page-hdr > div:first-child > div:first-child {color:#0f172a !important;}
+html[data-theme="light"] #pg-dash .pg-hdr-left p,
+html[data-theme="light"] #pg-dash .sys-page-hdr > div:first-child > div:nth-child(2) {color:#64748b !important;opacity:1 !important;}
+
+html[data-theme="light"] #pg-dash .kpi,
+html[data-theme="light"] #pg-dash .panel,
+html[data-theme="light"] #pg-dash .exp-stat,
+html[data-theme="light"] #pg-dash .fr-card,
+html[data-theme="light"] #pg-dash .stat-card,
+html[data-theme="light"] #pg-dash .gps-stat-card,
+html[data-theme="light"] #pg-dash .gps-filter-bar,
+html[data-theme="light"] #pg-dash .gps-form-panel,
+html[data-theme="light"] #pg-dash .month-data-section,
+html[data-theme="light"] #pg-dash .month-kpi,
+html[data-theme="light"] #pg-dash .salary-toolbar,
+html[data-theme="light"] #pg-dash .salary-rule-card,
+html[data-theme="light"] #pg-dash .salary-summary-card,
+html[data-theme="light"] #pg-dash .salary-calc-card,
+html[data-theme="light"] #pg-dash .salary-kpi,
+html[data-theme="light"] #pg-dash .salary-employee-box,
+html[data-theme="light"] #pg-dash .srt-profile-card {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#d7e0ea !important;
+  box-shadow:0 1px 3px rgba(15,23,42,.04) !important;
+}
+html[data-theme="light"] #pg-dash .kpi-lbl,
+html[data-theme="light"] #pg-dash .kpi-sub,
+html[data-theme="light"] #pg-dash .ps,
+html[data-theme="light"] #pg-dash .sc-lbl,
+html[data-theme="light"] #pg-dash .sc-sub,
+html[data-theme="light"] #pg-dash .tbl-cnt,
+html[data-theme="light"] #pg-dash .month-data-title p,
+html[data-theme="light"] #pg-dash .mk-label {
+  color:#64748b !important;
+  opacity:1 !important;
+}
+
+/* Search, filter and form controls */
+html[data-theme="light"] #pg-dash input:not([type="checkbox"]):not([type="radio"]),
+html[data-theme="light"] #pg-dash select,
+html[data-theme="light"] #pg-dash textarea {
+  background:#ffffff !important;
+  color:#111827 !important;
+  border-color:#cbd5e1 !important;
+}
+html[data-theme="light"] #pg-dash input::placeholder,
+html[data-theme="light"] #pg-dash textarea::placeholder {color:#64748b !important;opacity:.82 !important;}
+html[data-theme="light"] #pg-dash select option {background:#ffffff !important;color:#111827 !important;}
+html[data-theme="light"] #pg-dash .date-nav,
+html[data-theme="light"] #pg-dash .cal-nav {background:#ffffff !important;border-color:#cbd5e1 !important;color:#111827 !important;}
+html[data-theme="light"] #pg-dash .date-nav button,
+html[data-theme="light"] #pg-dash .cal-nav button {background:#f8fafc !important;color:#111827 !important;border-color:#cbd5e1 !important;}
+
+/* Tables and record lists */
+html[data-theme="light"] #pg-dash .tbl-wrap,
+html[data-theme="light"] #pg-dash .gps-tbl-wrap,
+html[data-theme="light"] #pg-dash .att-table-wrap,
+html[data-theme="light"] #pg-dash .staff-table-wrap,
+html[data-theme="light"] #pg-dash .salary-table-wrap,
+html[data-theme="light"] #pg-dash .month-table-wrap,
+html[data-theme="light"] #pg-dash .cal-grid-wrap {
+  background:#ffffff !important;
+  border-color:#d7e0ea !important;
+}
+html[data-theme="light"] #pg-dash table {color:#172033 !important;}
+html[data-theme="light"] #pg-dash thead th,
+html[data-theme="light"] #pg-dash .month-table th,
+html[data-theme="light"] #pg-dash .salary-table thead th {
+  background:#eef3f8 !important;
+  color:#334155 !important;
+  border-color:#d7e0ea !important;
+  opacity:1 !important;
+}
+html[data-theme="light"] #pg-dash tbody td,
+html[data-theme="light"] #pg-dash .month-table td,
+html[data-theme="light"] #pg-dash .salary-table tbody td {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#e3e8ef !important;
+}
+html[data-theme="light"] #pg-dash tbody tr:hover td,
+html[data-theme="light"] #pg-dash .month-table tbody tr:hover td {background:#f7f9fc !important;}
+html[data-theme="light"] #pg-dash .gps-act-col {background:#ffffff !important;}
+html[data-theme="light"] #pg-dash .scroll-hint {background:#eef3f8 !important;color:#64748b !important;border-color:#d7e0ea !important;}
+
+/* Tabs and module switching */
+html[data-theme="light"] #pg-dash .module-view-tabs,
+html[data-theme="light"] #pg-dash .att-tabs-bar,
+html[data-theme="light"] #pg-dash .stats-section {background:#f4f7fb !important;border-color:#d7e0ea !important;}
+html[data-theme="light"] #pg-dash .module-view-tab:not(.active),
+html[data-theme="light"] #pg-dash .att-tab-btn:not(.active) {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#cbd5e1 !important;
+}
+html[data-theme="light"] #pg-dash .module-view-tab.active,
+html[data-theme="light"] #pg-dash .att-tab-btn.active {
+  background:#ff4500 !important;
+  color:#ffffff !important;
+  border-color:#ff4500 !important;
+}
+
+/* Standard module action order and light appearance: Add -> Export -> Print */
+#pg-dash .pg-actions {display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;}
+html[data-theme="light"] #pg-dash .btn-add,
+html[data-theme="light"] #pg-dash .att-btn-primary,
+html[data-theme="light"] #pg-dash .gps-btn-orange {
+  background:#ff4500 !important;
+  color:#ffffff !important;
+  border-color:#ff6b2a !important;
+}
+html[data-theme="light"] #pg-dash .btn-export,
+html[data-theme="light"] #pg-dash .gps-btn-ghost,
+html[data-theme="light"] #pg-dash .att-btn-ghost {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#cbd5e1 !important;
+  box-shadow:0 1px 2px rgba(15,23,42,.07) !important;
+}
+html[data-theme="light"] #pg-dash .btn-export:hover,
+html[data-theme="light"] #pg-dash .gps-btn-ghost:hover,
+html[data-theme="light"] #pg-dash .att-btn-ghost:hover {background:#f8fafc !important;border-color:#94a3b8 !important;}
+
+/* Menus and popups */
+html[data-theme="light"] #pg-dash .xport-menu,
+html[data-theme="light"] #pg-dash .gps-ie-menu,
+html[data-theme="light"] #pg-dash .att-export-menu {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#d7e0ea !important;
+  box-shadow:0 12px 30px rgba(15,23,42,.14) !important;
+}
+html[data-theme="light"] #pg-dash .xport-menu button,
+html[data-theme="light"] #pg-dash .gps-ie-menu button,
+html[data-theme="light"] #pg-dash .att-export-menu button,
+html[data-theme="light"] #pg-dash .xport-label,
+html[data-theme="light"] #pg-dash .gps-ie-menu label {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#e2e8f0 !important;
+}
+html[data-theme="light"] #pg-dash .xport-menu button:hover,
+html[data-theme="light"] #pg-dash .gps-ie-menu button:hover,
+html[data-theme="light"] #pg-dash .att-export-menu button:hover,
+html[data-theme="light"] #pg-dash .xport-label:hover,
+html[data-theme="light"] #pg-dash .gps-ie-menu label:hover {background:#f8fafc !important;}
+
+/* Keep destructive/edit icon actions legible */
+html[data-theme="light"] #pg-dash .act-edit {background:#e8f7fb !important;color:#006b8f !important;border-color:#b9dce6 !important;}
+html[data-theme="light"] #pg-dash .act-del {background:#fff0f2 !important;color:#b42335 !important;border-color:#f0c7cf !important;}
+
+/* Notification and chat light-theme polish */
+html[data-theme="light"] .srt-notif-head,
+html[data-theme="light"] .srt-notif-filter {background:#f8fafc !important;border-color:#e2e8f0 !important;}
+html[data-theme="light"] .srt-notif-item {color:#172033 !important;}
+html[data-theme="light"] .srt-notif-title {color:#111827 !important;}
+html[data-theme="light"] .srt-notif-msg,
+html[data-theme="light"] .srt-notif-time,
+html[data-theme="light"] .srt-notif-section-label {color:#64748b !important;}
+html[data-theme="light"] .srt-notif-icon {background:#eef3f8 !important;color:#172033 !important;}
+html[data-theme="light"] .srt-notif-item:hover {background:#f8fafc !important;border-color:#e2e8f0 !important;}
+html[data-theme="light"] .srt-notif-item.unread {background:#fff3ed !important;}
+html[data-theme="light"] .srt-notif-filter button {background:#ffffff !important;color:#334155 !important;border-color:#cbd5e1 !important;}
+html[data-theme="light"] .srt-notif-filter button.active {background:#ff4500 !important;color:#fff !important;border-color:#ff4500 !important;}
+html[data-theme="light"] .srt-chat-convo-sub,
+html[data-theme="light"] .srt-chat-head-status,
+html[data-theme="light"] .srt-chat-empty {color:#64748b !important;}
+
+/* Pager buttons and small navigation controls */
+html[data-theme="light"] #pg-dash .tbl-pager button,
+html[data-theme="light"] #pg-dash .gps-pager button {
+  background:#ffffff !important;
+  color:#172033 !important;
+  border-color:#cbd5e1 !important;
+}
+html[data-theme="light"] #pg-dash .tbl-pager button:disabled,
+html[data-theme="light"] #pg-dash .gps-pager button:disabled {background:#f1f5f9 !important;color:#94a3b8 !important;}

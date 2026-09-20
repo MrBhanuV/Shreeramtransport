@@ -1,0 +1,62 @@
+
+
+/* ═══════════════════════════════════════════════════════════
+   ATTENDANCE STATUS — STRONG SELECTED STATE
+   Selected status must stay visually obvious in Dark/Light theme.
+═══════════════════════════════════════════════════════════ */
+#pg-dash .status-btn:not([class*="active-"]) {
+  background:#13283d !important;
+  color:#f5f7fb !important;
+  border-color:#30465b !important;
+  box-shadow:none !important;
+  opacity:.78 !important;
+}
+#pg-dash .status-btn.active-Present {
+  background:#168a46 !important;
+  color:#ffffff !important;
+  border-color:#22c55e !important;
+  box-shadow:0 0 0 2px rgba(34,197,94,.16) !important;
+  opacity:1 !important;
+}
+#pg-dash .status-btn.active-WFH {
+  background:#2563eb !important;
+  color:#ffffff !important;
+  border-color:#60a5fa !important;
+  box-shadow:0 0 0 2px rgba(59,130,246,.16) !important;
+  opacity:1 !important;
+}
+#pg-dash .status-btn.active-Absent {
+  background:#dc2626 !important;
+  color:#ffffff !important;
+  border-color:#f87171 !important;
+  box-shadow:0 0 0 2px rgba(239,68,68,.16) !important;
+  opacity:1 !important;
+}
+#pg-dash .status-btn.active-Late {
+  background:#d97706 !important;
+  color:#ffffff !important;
+  border-color:#fbbf24 !important;
+  box-shadow:0 0 0 2px rgba(245,158,11,.18) !important;
+  opacity:1 !important;
+}
+#pg-dash .status-btn.active-Half-Day {
+  background:#6d5bd0 !important;
+  color:#ffffff !important;
+  border-color:#a5b4fc !important;
+  box-shadow:0 0 0 2px rgba(129,140,248,.18) !important;
+  opacity:1 !important;
+}
+
+html[data-theme="light"] #pg-dash .status-btn:not([class*="active-"]) {
+  background:#ffffff !important;
+  color:#24364d !important;
+  border-color:#cbd5e1 !important;
+  opacity:1 !important;
+}
+html[data-theme="light"] #pg-dash .status-btn.active-Present,
+html[data-theme="light"] #pg-dash .status-btn.active-WFH,
+html[data-theme="light"] #pg-dash .status-btn.active-Absent,
+html[data-theme="light"] #pg-dash .status-btn.active-Late,
+html[data-theme="light"] #pg-dash .status-btn.active-Half-Day {
+  color:#ffffff !important;
+}

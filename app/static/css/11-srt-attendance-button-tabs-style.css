@@ -1,0 +1,73 @@
+
+/* Attendance navigation as proper button tabs */
+#cp-att .att-tabs-bar{
+  display:flex !important;
+  align-items:center !important;
+  gap:.65rem !important;
+  padding:.8rem 1.5rem !important;
+  background:#071626 !important;
+  border-bottom:1px solid rgba(255,255,255,.07) !important;
+  overflow-x:auto !important;
+  scrollbar-width:thin;
+}
+#cp-att .att-tab-btn{
+  appearance:none;
+  display:inline-flex !important;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:.68rem 1rem !important;
+  margin:0 !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  border-radius:8px !important;
+  background:#0d2033 !important;
+  color:#f2efe8 !important;
+  opacity:1 !important;
+  font-family:'DM Sans',sans-serif;
+  font-size:.84rem !important;
+  font-weight:700 !important;
+  line-height:1.15;
+  white-space:nowrap;
+  cursor:pointer;
+  box-shadow:0 2px 8px rgba(0,0,0,.12);
+  transition:none !important;
+}
+#cp-att .att-tab-btn:hover{
+  background:#132b43 !important;
+  border-color:rgba(255,69,0,.75) !important;
+  color:#ffffff !important;
+}
+#cp-att .att-tab-btn.active{
+  background:#ff4500 !important;
+  border-color:#ff4500 !important;
+  color:#ffffff !important;
+  box-shadow:0 4px 12px rgba(255,69,0,.22);
+}
+#cp-att .att-tab-btn:focus-visible{
+  outline:2px solid #00c8ff !important;
+  outline-offset:2px;
+}
+html[data-theme="light"] #cp-att .att-tabs-bar{
+  background:#f4f7fa !important;
+  border-bottom-color:#d7dfe8 !important;
+}
+html[data-theme="light"] #cp-att .att-tab-btn{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border-color:#cbd5e1 !important;
+  box-shadow:0 2px 7px rgba(15,23,42,.07);
+}
+html[data-theme="light"] #cp-att .att-tab-btn:hover{
+  background:#fff7f2 !important;
+  color:#b93800 !important;
+  border-color:#ff7a33 !important;
+}
+html[data-theme="light"] #cp-att .att-tab-btn.active{
+  background:#ff4500 !important;
+  border-color:#ff4500 !important;
+  color:#ffffff !important;
+}
+@media(max-width:700px){
+  #cp-att .att-tabs-bar{padding:.7rem 1rem !important;gap:.5rem !important;}
+  #cp-att .att-tab-btn{min-height:40px;padding:.62rem .82rem !important;font-size:.78rem !important;}
+}
